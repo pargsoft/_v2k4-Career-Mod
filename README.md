@@ -1,13 +1,15 @@
 # SG Career Mod
 
-
-
-CM Settings
+---------------------------
+cmsettings.ini
+---------------------------
 
 ~ FITNESS ~
 - Lowered fitness recovery
 
-Morale Settings
+---------------------------
+moralesettings.ini
+---------------------------
 
 ~ MORALE ~
 - Adopted a more Football Manager style of morale that is more game by game oriented than league position
@@ -15,10 +17,12 @@ Morale Settings
 - Reserve/Young players are really happy about being played
 - Wage expectation has been risen to have players act more like their real conterparts (greedy & overpaid)
 
-
-TRAINING LIST
+---------------------------
+training_progress.ini
+---------------------------
 
 ~ TRAINING ~
+- Added all attributes to the attribute list
 - Added Sprint Speed to Dribbling (In testing)
 
 Player Growth
@@ -26,7 +30,10 @@ Player Growth
 ~ GROWTH ~
 - Slight tweaks (needs more investigating into the new Curve system)
 
-TCM Finance Settings
+
+---------------------------
+tcm_finance_settings.ini
+---------------------------
 
 - Increased Ticket Income for League 1 & 2 to be more realistic
 - Increased Shirt Prices for League 1 & 2 to be more realistic
