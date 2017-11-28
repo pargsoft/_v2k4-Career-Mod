@@ -1,5 +1,23 @@
 # SG Career Mod
 
+# How to Use? How to Install?
+
+You Need:
+- Frosty Editor 1.0.3alpha4 or above
+- Latest FIFA Update
+- Administrator Priviledges
+
+How to install and run:
+- Download the Zip provided (clone or download -> download zip)
+- Extract Contents to subfolder of Frosty Editor
+- Delete ModData from FIFA if it exists
+- Delete fifa18.cache from FrostyEditor folder if it exists
+- Run Frosty Editor as Administrator
+- Open the v2k4 career mod.fbproject provided using Frosty Editor
+- Click Launch -> Wait for FIFA to open (it may take 2 attempts to run)
+
+---------------------------
+
 ---------------------------
 cmsettings.ini
 ---------------------------
