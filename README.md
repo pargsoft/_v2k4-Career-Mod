@@ -1,4 +1,4 @@
-# SG Career Mod
+# v2k4 FIFA 18 Career Mod
 
 # How to Use? How to Install?
 
@@ -12,9 +12,22 @@ How to install and run:
 - Extract Contents to subfolder of Frosty Editor
 - Delete ModData from FIFA if it exists
 - Delete fifa18.cache from FrostyEditor folder if it exists
-- Run Frosty Editor as Administrator
-- Open the v2k4 career mod.fbproject provided using Frosty Editor
+- Run Frosty Editor as Administrator (If you recieve an error when loading fifa18.cache then delete the .cache file)
+- Open the v2k4 career mod.fbproject provided using Frosty Editor (IF IT THROWS AN ERROR SEE BELOW)
 - Click Launch -> Wait for FIFA to open (it may take 2 attempts to run)
+
+FrostyEditor shows an error when opening the .fbproject file:
+- If this happens then you are going to have to manually apply the files yourself
+- To do this Open the folder to see all the files that are included
+- Then in FrostyEditor, load FIFA->Legacy Viewer
+- In the new Legacy Explorer Window open dlc -> dlc_FootballCompEng -> dlc -> FootballCompEng -> data (click the data folder)
+- Right Click each of the files to update by this mod and Import file (you must do this one by one)
+- open dlc -> dlc_FootballCompEng -> dlc -> FootballCompEng -> data -> Transfers (click the Transfers folder)
+- Right Click each of the files to update by this mod and Import file (you must do this one by one)
+- Once your finished SAVE your Project so that you can reload it next time you Play FIFA
+- Click Launch
+
+
 
 ---------------------------
 
