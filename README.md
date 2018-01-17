@@ -27,37 +27,40 @@ FrostyEditor shows an error when opening the .fbproject file:
 - Once your finished SAVE your Project so that you can reload it next time you Play FIFA
 - Click Launch
 
-
-
 How to install and run in Frosty Mod Manager:
-- Download the Mod file and archive.
+- Download the Mod file and archive. [From here](https://1drv.ms/f/s!AnhDYHPF81b3gdN6vWXKsuIf7pq6Gg)
 - Place in the Mod Manager "Mods" folder. 
 - It should now appear in mods selection in Mod Manager.
 
 ---------------------------
 
+# Features / Changes
+
 ---------------------------
 managerai.ini
 ---------------------------
 
-~ TEAM SELECTION ~
+__TEAM SELECTION__
+
 - AI more likely to pick better players
----> This is acheived by lowering the ratio of "fitness"
------> Can be tested by checking the "preview" news of the game. It now select the team I would normally pick & the opposition's team included the top scorer. 
--------> Matches are now much harder due to opposition selecting best (and in-form) 11.
+This is acheived by lowering the ratio of "fitness"
+Can be tested by checking the "preview" news of the game. It now select the team I would normally pick & the opposition's team included the top scorer. 
+Matches are now much harder due to opposition selecting best (and in-form) 11.
 
 ---------------------------
 cmsettings.ini
 ---------------------------
 
-~ FITNESS ~
+__FITNESS__
+
 - Lowered fitness recovery
 
 ---------------------------
 moralesettings.ini
 ---------------------------
 
-~ MORALE ~
+__MORALE__
+
 - Adopted a more Football Manager style of morale having game time
 - Reserve/Young players are really happy about beingthat is more game by game oriented than league position
 - Only first 11 players get irritated by not  played
@@ -67,51 +70,59 @@ moralesettings.ini
 training_progress.ini
 ---------------------------
 
+__TRAINING__
+
 - Added all attributes to the attribute list
 
 ---------------------------
 training_drill_attributes_list.ini
 ---------------------------
 
+__TRAINING__
+
 - Added Sprint Speed to Dribbling (In testing)
 
---> How Do I add an attribute to a training?
+**How Do I add an attribute to a training?**
 
 - Open training_drill_attributes_list.ini
 - Find the drill you would like to add to or change
 
-- If your adding 
------increase the NUMBER_OF_ATTRIBUTES by 1
------add the ATTRIBUTE_ to bottom of the current list with the same number given above
------set the = Number to what you need
------the attributes list can be found in "training_progress"
------
+**If your adding** 
+- increase the NUMBER_OF_ATTRIBUTES by 1
+- add the ATTRIBUTE_ to bottom of the current list with the same number given above
+- set the = Number to what you need
+- the attributes list can be found in "training_progress"
+
 
 ---------------------------
 player_growth.ini
 ---------------------------
  
-~ GROWTH ~
-- Slight tweaks (needs more investigating into the new Curve system)
-
+__GROWTH__
+- [x] Integrated "Tea"'s player growth system [From here](http://www.soccergaming.com/index.php?threads/player-overall-physical-degradation-fix.6464936/)
+- [ ] Investigation & testing into Growth System
 
 ---------------------------
 tcm_finance_settings.ini
 ---------------------------
 
-- Increased Ticket Income for League 1 & 2 to be more realistic
-- Increased Shirt Prices for League 1 & 2 to be more realistic
-- Increased Ground Maintanance for ALL clubs
+__FINANCE__
+- [x] Increased Ticket Income for League 1 & 2 to be more realistic
+- [x] Increased Shirt Prices for League 1 & 2 to be more realistic
+- [x] Increased Ground Maintanance for ALL clubs
+- [ ] Improve other leagues Ticket Income
+- [ ] Improve other leagues Shirt Prices
+- [ ] Reduce money available to clubs in lower league (remove >£1m purchases from L1 & L2)
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Transfers
 
-Transfers
+__ACTIVITY__
 
 --------------------------------------
 Transfers / TransfersLeagueBuckets.csv
 --------------------------------------
 - Increased the amount of teams that search per day to 20 (inside the transfer window)
-- Increased the amount of teams that search per day to 5 (outside the transfer window)
+- Increased the amount of teams that search per day to 20 (outside the transfer window)
 - Increased the AI ability to search for team improvements (changed the modifiers that compares to own team)
 
 
