@@ -7,7 +7,7 @@ You Need:
 - Latest FIFA Update
 - Administrator Priviledges
 
-How to install and run:
+How to install and run in FrostyEditor:
 - Download the Zip provided (clone or download -> download zip)
 - Extract Contents to subfolder of Frosty Editor
 - Delete ModData from FIFA if it exists
@@ -29,7 +29,22 @@ FrostyEditor shows an error when opening the .fbproject file:
 
 
 
+How to install and run in Frosty Mod Manager:
+- Download the Mod file and archive.
+- Place in the Mod Manager "Mods" folder. 
+- It should now appear in mods selection in Mod Manager.
+
 ---------------------------
+
+---------------------------
+managerai.ini
+---------------------------
+
+~ TEAM SELECTION ~
+- AI more likely to pick better players
+---> This is acheived by lowering the ratio of "fitness"
+-----> Can be tested by checking the "preview" news of the game. It now select the team I would normally pick & the opposition's team included the top scorer. 
+-------> Matches are now much harder due to opposition selecting best (and in-form) 11.
 
 ---------------------------
 cmsettings.ini
