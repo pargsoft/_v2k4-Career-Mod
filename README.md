@@ -43,9 +43,12 @@ managerai.ini
 __TEAM SELECTION__
 
 - AI more likely to pick better players
-This is acheived by lowering the ratio of "fitness"
-Can be tested by checking the "preview" news of the game. It now select the team I would normally pick & the opposition's team included the top scorer. 
-Matches are now much harder due to opposition selecting best (and in-form) 11.
+- This is acheived by lowering the ratio of "fitness"
+- Can be tested by checking the "preview" news of the game. It now select the team I would normally pick & the opposition's team included the top scorer. 
+- Matches are now much harder due to opposition selecting best (and in-form) 11.
+- 
+- place in dlc -> dlc_FootballCompEng -> dlc -> FootballCompEng -> data 
+- place in data -> teammanagement
 
 ---------------------------
 cmsettings.ini
