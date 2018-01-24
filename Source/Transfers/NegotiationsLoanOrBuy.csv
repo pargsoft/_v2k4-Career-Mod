@@ -48,6 +48,6 @@ Time At Club,Score,
 Preferred Position Available,Score,Comment
 0,-100,Fallback Case
 1,25,Player first preffered position found
-2,-100,
-3,-100,
+2,-25,
+3,-50,
 4,-100,
