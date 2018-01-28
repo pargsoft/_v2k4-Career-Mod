@@ -65,9 +65,9 @@ moralesettings.ini
 __MORALE__
 
 - Adopted a more Football Manager style of morale having game time
-- Reserve/Young players are really happy about beingthat is more game by game oriented than league position
-- Only first 11 players get irritated by not  played
-- Wage expectation has been risen to have players act more like their real conterparts (greedy & overpaid)
+- Reserve/Young players are now happier from being selected once or twice
+- Only first 11 players get irritated by not being selected
+- Wage expectation has been risen to have players act more like their real conterparts (greedy & overpaid, causes starting morale to be low, dont worry)
 
 ---------------------------
 training_progress.ini
@@ -102,7 +102,7 @@ player_growth.ini
 ---------------------------
  
 __GROWTH__
-- [x] Integrated "Tea"'s player growth system [From here](http://www.soccergaming.com/index.php?threads/player-overall-physical-degradation-fix.6464936/)
+- [ ] (Removed due to serious Overgrowth) Integrated "Tea"'s player growth system [From here](http://www.soccergaming.com/index.php?threads/player-overall-physical-degradation-fix.6464936/)
 - [ ] Investigation & testing into Growth System
 
 ---------------------------
@@ -115,17 +115,15 @@ __FINANCE__
 - [x] Increased Ground Maintanance for ALL clubs
 - [ ] Improve other leagues Ticket Income
 - [ ] Improve other leagues Shirt Prices
-- [ ] Reduce money available to clubs in lower league (remove >£1m purchases from L1 & L2)
+- [ ] (Looks impossible) Reduce money available to clubs in lower league (remove >£1m purchases from L1 & L2)
 
 # Transfers
 
-__ACTIVITY__
-
 --------------------------------------
-Transfers / TransfersLeagueBuckets.csv
+Transfers
 --------------------------------------
-- Increased the amount of teams that search per day to 20 (inside the transfer window)
-- Increased the amount of teams that search per day to 20 (outside the transfer window)
-- Increased the AI ability to search for team improvements (changed the modifiers that compares to own team)
+- [x] Improved AI searching for players that they need
+- [x] Improved AI selling/loaning reserve/youth players
+- [x] Increased the amount of teams that search per day (makes the game a little slower between days)
 
 
