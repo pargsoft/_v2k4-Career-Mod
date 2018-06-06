@@ -37,6 +37,43 @@ How to install and run in Frosty Mod Manager:
 # Features / Changes
 
 ---------------------------
+board.ini
+---------------------------
+
+- Removed Sacking
+
+---------------------------
+cmsettings.ini
+---------------------------
+
+__FITNESS__
+
+- Lowered fitness recovery
+
+__MODIFIERS__
+
+- Increased Form Modifier
+- Lowered Away Modifier (making it harder to play Away games)
+
+---------------------------
+formsettings.ini
+---------------------------
+
+__FORM__
+
+- Improved Form Variation between players (no longer all players ^ for example)
+
+---------------------------
+GTNDataReveal.csv
+---------------------------
+
+__SCOUTING__
+
+- Increased scouting ability in own division
+- Increased overall scouting ability/speed
+
+
+---------------------------
 managerai.ini
 ---------------------------
 
@@ -50,13 +87,7 @@ __TEAM SELECTION__
 - place in dlc -> dlc_FootballCompEng -> dlc -> FootballCompEng -> data 
 - place in data -> teammanagement
 
----------------------------
-cmsettings.ini
----------------------------
 
-__FITNESS__
-
-- Lowered fitness recovery
 
 ---------------------------
 moralesettings.ini
@@ -68,6 +99,29 @@ __MORALE__
 - Reserve/Young players are now happier from being selected once or twice
 - Only first 11 players get irritated by not being selected
 - Wage expectation has been risen to have players act more like their real conterparts (greedy & overpaid, causes starting morale to be low, dont worry)
+
+---------------------------
+player_growth.ini
+---------------------------
+ 
+__GROWTH__
+- [x] Stopped "overgrowth" of players reaching abilities way beyond their potential (tested and works)
+- [ ] (Incomplete) Stop old players declining by so much
+
+---------------------------
+playervalues.ini
+---------------------------
+ 
+- A complete re-design of the modifiers. Players like Neymar/Lukaku/Messi are over £100m now and almost impossible to buy.
+
+---------------------------
+playerwages.ini
+---------------------------
+ 
+- A complete re-design of the modifiers. 
+- [x] Players ask for more in the higher leagues
+- [x] Players ask for less in the lower leagues (matches Football Manager values in League 2)
+
 
 ---------------------------
 training_progress.ini
@@ -97,13 +151,7 @@ __TRAINING__
 - the attributes list can be found in "training_progress"
 
 
----------------------------
-player_growth.ini
----------------------------
- 
-__GROWTH__
-- [ ] (Removed due to serious Overgrowth) Integrated "Tea"'s player growth system [From here](http://www.soccergaming.com/index.php?threads/player-overall-physical-degradation-fix.6464936/)
-- [ ] Investigation & testing into Growth System
+
 
 ---------------------------
 tcm_finance_settings.ini
