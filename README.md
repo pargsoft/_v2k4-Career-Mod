@@ -158,12 +158,14 @@ tcm_finance_settings.ini
 ---------------------------
 
 __FINANCE__
-- [x] Increased Ticket Income for League 1 & 2 to be more realistic
 - [x] Increased Shirt Prices for League 1 & 2 to be more realistic
+- [x] Increased Shirt Prices for Popular players (i.e. Neymar / Messi) so that signing good players earns money back
 - [x] Increased Ground Maintanance for ALL clubs
+- [x] Increased "Ticket" Income to include TV Revenue
 - [ ] Improve other leagues Ticket Income
 - [ ] Improve other leagues Shirt Prices
 - [ ] (Looks impossible) Reduce money available to clubs in lower league (remove >£1m purchases from L1 & L2)
+
 
 # Transfers
 
